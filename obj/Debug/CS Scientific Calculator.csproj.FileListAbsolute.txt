@@ -1,0 +1,10 @@
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\bin\Debug\CS Scientific Calculator.exe.config
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\bin\Debug\CS Scientific Calculator.exe
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\bin\Debug\CS Scientific Calculator.pdb
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\obj\Debug\CS Scientific Calculator.csprojAssemblyReference.cache
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\obj\Debug\CS_Scientific_Calculator.Form1.resources
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\obj\Debug\CS_Scientific_Calculator.Properties.Resources.resources
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\obj\Debug\CS Scientific Calculator.csproj.GenerateResource.cache
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\obj\Debug\CS Scientific Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\obj\Debug\CS Scientific Calculator.exe
+C:\Users\Home\source\repos\CS Scientific Calculator\CS Scientific Calculator\obj\Debug\CS Scientific Calculator.pdb
