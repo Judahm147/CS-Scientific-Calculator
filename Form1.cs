@@ -41,6 +41,12 @@ namespace CS_Scientific_Calculator
 
         private void button_Click(object sender, EventArgs e)
         {
+            if (lblShowOp.Text.Contains("="))
+            {
+                textBox1.Text = "0";
+                lblShowOp.Text = "";
+            }
+
             Button num = (Button)sender;
             if ((textBox1.Text == "0") || (enter_value))
             {     
@@ -68,12 +74,15 @@ namespace CS_Scientific_Calculator
         {
             textBox1.Text = "0";
             lblShowOp.Text = "";
+            results = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Text = "0";
             lblShowOp.Text = "";
+            results = 0;
+
         }
 
         private void btnSpace_Click(object sender, EventArgs e)
@@ -90,14 +99,34 @@ namespace CS_Scientific_Calculator
         {
             Button op = (Button)sender;
             operation = op.Text;
-            results = Double.Parse(textBox1.Text);
             enter_value = true;
-            lblShowOp.Text = textBox1.Text + " " + operation;
+            lblShowOp.Text += textBox1.Text + " " + operation + " ";
+            if (!(results == 0)){
+                switch (operation)
+                {
+                    case "+":
+                        textBox1.Text = (results + Double.Parse(textBox1.Text)).ToString();
+                        break;
+                    case "−":
+                        textBox1.Text = (results - Double.Parse(textBox1.Text)).ToString();
+                        break;
+                    case "÷":
+                        textBox1.Text = (results / Double.Parse(textBox1.Text)).ToString();
+                        break;
+                    case "*":
+                        textBox1.Text = (results * Double.Parse(textBox1.Text)).ToString();
+                        break;
+                    default:
+                        break;
+                }
+            }
+            results = Double.Parse(textBox1.Text);
+
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            lblShowOp.Text += " " + textBox1.Text + " = " ;
+            lblShowOp.Text += textBox1.Text + " = " ;
             switch (operation)
             {
                 case "+":
