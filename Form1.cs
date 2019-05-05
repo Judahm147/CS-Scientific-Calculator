@@ -41,11 +41,7 @@ namespace CS_Scientific_Calculator
 
         private void button_Click(object sender, EventArgs e)
         {
-            if (lblShowOp.Text.Contains("="))
-            {
-                textBox1.Text = "0";
-                lblShowOp.Text = "";
-            }
+            
 
             Button num = (Button)sender;
             if ((textBox1.Text == "0") || (enter_value))
@@ -152,6 +148,8 @@ namespace CS_Scientific_Calculator
                 default:
                     break;
             }
+            results = 0;
+
         }
 
         private void button40_Click(object sender, EventArgs e)
