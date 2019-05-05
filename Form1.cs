@@ -149,7 +149,7 @@ namespace CS_Scientific_Calculator
                     break;
             }
             results = 0;
-
+            enter_value = true;
         }
 
         private void button40_Click(object sender, EventArgs e)
